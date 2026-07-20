@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-path = "/home/melisacelik/Downloads/norfolk-finds.csv"
+path = "norfolk-finds.csv"
 df = pd.read_csv(path, encoding="latin-1", low_memory=False)
 
 top_rulers = df["rulerName"].value_counts().head(12).sort_values()
