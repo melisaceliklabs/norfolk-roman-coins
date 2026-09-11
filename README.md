@@ -8,6 +8,11 @@ A self-directed data project analysing Roman coin finds from Norfolk, England, a
 - **Source:** Portable Antiquities Scheme (finds.org.uk), public database export
 - **Scope:** 25,394 individual Roman coin records from Norfolk
 - **Note on location:** the public export restricts findspot data below county level — precise coordinates are deliberately withheld to protect sites from illicit metal-detecting. Spatial analysis here is therefore at district level. Finer (1 km grid) references require a PAS research account.
+- **Counting unit:** A PAS record is not always one coin: quantity exceeds 1 where a record covers a group or hoard. This dataset holds 25,394 records representing 27,067 coins; 734 records (2.9%) cover more than one coin, the largest covering 52.
+
+All analysis below is at record level. Hoard records cluster in space and would distort the distribution if each coin were mapped to its findspot. Counting by coins instead of records leaves the district ranking unchanged, so this choice does not affect the spatial conclusions.
+
+Two records have no district assigned and are excluded from spatial analysis.
 
 ## Tools
 Python (pandas, GeoPandas), matplotlib, and ONS district boundaries from the Open Geography Portal.
