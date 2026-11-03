@@ -36,3 +36,11 @@ This distribution reflects modern recovery, not ancient reality. Small late-Roma
 ## Next steps
 - Obtain PAS research access for 1 km grid references, enabling point-level mapping
 - Model graduated findspot access control (row-level security) as a data-governance layer
+
+## License
+
+- **Code** (`*.py`): released under the MIT License, see [LICENSE](LICENSE).
+- **Data** (`norfolk-finds.csv`): exported from the Portable Antiquities Scheme database ([finds.org.uk](https://finds.org.uk)) and added to this repository on 2026-09-11. © The Portable Antiquities Scheme/The Trustees of the British Museum. Available under a [Creative Commons CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) licence, as stated in the [PAS terms of service](https://finds.org.uk/terms-of-service).
+- **Figures** (`*.png`): derived from the PAS data and shared under the same CC BY-NC-SA licence.
+- **Boundaries**: district boundaries from the ONS Open Geography Portal.
+- The MIT License of this repository does not apply to the data or the figures.
